@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: #005a87;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +9,31 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+.tabs-underlined {
+  display: flex;
+  align-items: center;
+}
+
+
+.tabs-underlined .tab-underlined {
+  font-size: 17px;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  opacity: .4;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.1s ease;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.tabs-underlined .tab-underlined:hover {
+  opacity: 1;
+  border-bottom: 2px solid;
+  color: white;
+}
+.collapse {
+  margin-top: 10px;
 }
