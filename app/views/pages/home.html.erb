@@ -1,2 +1,148 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+ <%= render "shared/navbar" %>
+ <div class="container">
+
+    <div class="banner-img">
+      <img class="img-banner" src="https://images.unsplash.com/photo-1598826739205-d09823c3bc3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+    </div>
+
+  <div class="banner">
+    <div class="banner-title">
+      <strong><h1>M'Conseil Accompagnement & Formation </h1></strong>
+      <p>
+        est une agence de conseil et de formation proféssionnelle
+        Nous faisons de votre <strong> réussite</strong> notre <strong>priorité</strong>.
+      </p>
+    </div>
+    <div class="buton">
+    <a href="#moi" class="boutton1">Découvrir</a>
+    <a href="#contact" class="boutton">Contact</a>
+    </div>
+  </div>
+
+
+  <div id="moi" class="moi" style="padding-top : 100px ;" >
+
+    <span >
+      <img src="https://images.unsplash.com/photo-1534945614667-31e4dc8ca6f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+    </span>
+
+    <div class="moi1" >
+    <h1>qui sommes nous ?</h1><span class="me-title"></span>
+      <p>
+        Le cabinet a vu le jour grâce a une passionnée de l'accompagnement et une proféssionnelle le l'individualisation des parcours des RH et de l'insertion proféssionnelle.
+        Basé sur l' <strong> écoute active</strong>, <strong>l'empathie</strong>, <strong>la bienvellance</strong>, <strong>l'éthique</strong>, notre accompagnement est une approche centré sur la personne.
+        L'individu est au centre du dispositif.
+      </P>
+      <p>
+        Pour cela, nous nous appuyons sur les travaux de <strong>Carl Roger </strong>qui dit: <br> <em>"Tout individu possède de façon innée un système de motivation appelé la <strong>tendance actualisante</strong>, à savoir que l'être profond est orienté positivement vers la maturation, l'autonomie et les rapports constructifs avec autrui !"</em>
+      </p>
+      <p>
+        Notre conviction est que l'humain possède un fort potenciel d'évoloution et d'épanouissement inné qui se développe de lui même à condition qu'il bénéficie d'un context favorable, dependant de la relation thérapeutique
+      </p>
+      <p class="p-strong">
+        <strong> Confiance, respect et authenticité sont les maître mot de mon accompagnement.</strong>
+      </p>
+    </div>
+
+  </div>
+
+  <div id="bilan" style="padding-top : 150px ;">
+    <h1>Bilan</h1><span class="me-title-bilan"></span>
+    <div class="accordion">
+
+      <div class="accordion-item">
+        <div class="accordion-header "><i class="fas fa-caret-down"></i> Bilan de compétences</div>
+        <div class="accordion-content">
+          Le bilan de compétences est une évaluation individuelle de ses aptitudes, compétences et motivations professionnelles. Il permet de faire le point sur sa carrière et de définir les actions à entreprendre pour améliorer sa situation professionnelle. Cette évaluation dure généralement 24 heures et se déroule en trois étapes : la phase préliminaire, la phase d'investigation et la phase de conclusion.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header"><i class="fas fa-caret-down"></i> Bilan de carrière</div>
+        <div class="accordion-content">
+          Le bilan de carrière est une démarche d'évaluation individuelle qui permet de faire le point sur sa carrière professionnelle. Cette évaluation vise à identifier les compétences et les acquis professionnels de l'individu, ainsi que les opportunités d'évolution et les menaces. Le bilan de carrière est un outil essentiel pour mieux comprendre sa situation et définir les perspectives d'évolution de sa carrière.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header"><i class="fas fa-caret-down"></i> Bilan d'orientation scolaire</div>
+        <div class="accordion-content">
+          Le bilan entrepreneurial est une démarche d'évaluation individuelle qui permet aux entrepreneurs de faire le point sur leur activité et de définir les actions à entreprendre pour améliorer leur situation. Cette évaluation vise à identifier les forces et les faiblesses de l'entreprise, ainsi que les opportunités d'évolution et les menaces. Le bilan entrepreneurial est un outil essentiel pour mieux comprendre sa situation et définir les perspectives d'évolution de son entreprise.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header"><i class="fas fa-caret-down"></i> Bilan de entreprenariale</div>
+        <div class="accordion-content">
+          Le bilan entrepreneurial est une évaluation de la situation de l'entreprise qui permet de faire le point sur ses forces et ses faiblesses, ses opportunités et ses menaces. Cette évaluation permet d'identifier les axes d'amélioration et les perspectives de développement. Le bilan entrepreneurial est un outil indispensable pour les entrepreneurs souhaitant améliorer leur situation et pérenniser leur entreprise.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="formation" class="formation2" style="padding-top : 150px ;">
+  <h1>Formation</h1><span class="me-title-bilan"></span>
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-header "><i class="fas fa-caret-down"></i> Formation communication</div>
+        <div class="accordion-content">
+          La formation en communication est un programme d'apprentissage qui vise à améliorer les compétences en communication verbale et non verbale d'un individu. Cette formation peut inclure des cours sur la prise de parole en public, l'écoute active, la rédaction de documents professionnels et la communication interpersonnelle.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header"><i class="fas fa-caret-down"></i> Formation développement personnel</div>
+        <div class="accordion-content">
+La formation en développement personnel est un programme qui vise à aider un individu à acquérir de nouvelles compétences, connaissances et techniques pour améliorer son bien-être personnel, sa confiance en soi et sa croissance personnelle. Elle peut inclure des cours sur la gestion du stress, la communication efficace, la résolution de problèmes, la prise de décisions, la gestion du temps et bien plus encore.        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header"><i class="fas fa-caret-down"></i> Formation création d'entreprise</div>
+        <div class="accordion-content">
+La formation à la création d'entreprise vise à aider les individus à acquérir les compétences et connaissances nécessaires pour lancer et gérer une entreprise. Elle peut inclure des cours sur la planification d'entreprise, la comptabilité, le marketing, la gestion des finances, les ressources humaines et bien plus encore. Cette formation est souvent proposée par des écoles de commerce, des incubateurs d'entreprises ou des organismes spécialisés dans la formation à l'entrepreneuriat.        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header"><i class="fas fa-caret-down"></i> Formation éfficacité professionnelle</div>
+        <div class="accordion-content">
+          Le bilan entrepreneurial est une évaluation de la situation de l'entreprise qui permet de faire le point sur ses forces et ses faiblesses, ses opportunités et ses menaces. Cette évaluation permet d'identifier les axes d'amélioration et les perspectives de développement. Le bilan entrepreneurial est un outil indispensable pour les entrepreneurs souhaitant améliorer leur situation et pérenniser leur entreprise.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <div id="contact" class="contact">
+      <div class="contact-all">
+
+        <form action="traitement.php" method="post">
+            <h1>Nous contacter <span class="me-title2"></span></h1>
+            <p>Pour toutes questions ou demandes d’informations, n’hésitez pas à me contacter directement par mail ou par téléphone. <br>
+              Au plaisir d’échanger ensemble !
+            </p>
+
+          <div class="name-contact">
+            <label for="nom"></label>
+            <input type="text" id="nom" name="user_nom"  placeholder="Nom" required>
+            <br>
+            <label for="email"></label>
+            <input type="email" id="email" name="user_email" placeholder="E-mail" required>
+          </div>
+            <br>
+            <label for="sujet"></label>
+            <input type="text" id="sujet" name="user_sujet" placeholder="Sujet" required>
+            <br>
+            <label for="message"></label>
+            <textarea id="message" name="user_message" placeholder="Message" required></textarea>
+            <br>
+          <div>
+            <input class="boutton-contact" type="submit"  value="Envoyer">
+        </form>
+        <p>Marie Danielle <br> M'CAF</p>
+    </div>
+      <img class="contact-img" src="https://images.unsplash.com/photo-1454702762838-a6df8cc3517f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="">
+
+
+</div>

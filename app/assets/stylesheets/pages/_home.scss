@@ -1,1 +1,261 @@
 // Specific CSS for your home-page
+
+// Section banner
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80vh;
+  margin-top: 20rem;
+  font-size: 24px;
+  margin-left: 20px;
+}
+.img-banner{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  top: 0;
+  right: 0;
+  z-index: -1; /* pour positionner l'élément en arrière-plan */
+  border-radius: 0 0 0 50%;
+}
+.banner-title p{
+font-size: 18px;
+}
+.banner-title h1{
+  font-size: 50px;
+}
+.boutton1{
+  color: white;
+  padding: 8px 24px;
+  border-radius: 50px 50px 50px 50px;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+  background-color: #457B9D;
+  font-size: 16px;
+}
+.boutton1:hover{
+  color: white;
+  opacity: 0.8;
+}
+.boutton{
+  color: #4A4A4A;
+  border: 1px solid #457B9D;
+  padding: 8px 24px;
+  border-radius: 50px 50px 50px 50px;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+  font-size: 16px;
+}
+.boutton:hover{
+  background-color: #457B9D;
+  color: white;
+}
+
+
+//1er section "moi"
+.moi{
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.moi1{
+  flex-direction: column;
+  width: 65%;
+  right: 0;
+  margin-left: 40px;
+  text-align: justify;
+  line-height: 2;
+
+}
+span img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  align-items: center;
+
+}
+.moi1 h1{
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+.me-title{
+  display: inline-block;
+  border-bottom: 7px solid #457b9d;
+  border-radius: 50px;
+  width: 5em;
+  margin-bottom: 15px;
+
+}
+
+.p-strong{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+//Section
+
+.accordion-item {
+  border: 1px solid #ccc;
+  font-size: 24px;
+}
+
+.accordion-header {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+
+#formation{
+  margin-top: 200px;
+
+  justify-content: center;
+}
+.formation2{
+  height: 100vh;
+  justify-content: center;
+}
+#bilan{
+  height: 100vh;
+  margin-top: 200px;
+  margin-bottom: 200x;
+  justify-content: center;
+}
+#bilan h1{
+  text-align: center;
+}
+
+#formation h1{
+  text-align: center;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+.me-title-bilan{
+  display: inline-block;
+  border-bottom: 7px solid #457b9d;
+  border-radius: 50px;
+  width: 5em;
+  margin-bottom: 15px;
+  margin-left: 610px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Section contact
+.contact {
+  display: flex;
+  height: 80vh;
+  margin-top: 50px;
+}
+.contact-all{
+  display: flex;
+
+}
+.name-contact{
+  display: flex;
+  margin-right: 40px;
+  margin-top: 0;
+  width: 100%;
+}
+
+.contact h1{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-right: 90px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  margin-right: 10px;;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #008080;
+}
+.contact-img{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border-radius: 50% 50% 50% 50%;
+}
+.me-title2{
+  display: inline-block;
+  border-bottom: 7px solid #457b9d;
+  border-radius: 50px;
+  width: 6rem;
+  margin-bottom: -25px;
+  margin-left: -19rem;
+
+}
+
+.boutton-contact{
+  width: 25%;
+  color: #4A4A4A;
+  border: 1px solid #457B9D;
+  padding: 8px 24px;
+  border-radius: 50px 50px 50px 50px;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 485px;
+
+}
+.boutton-contact:hover{
+  background-color: #457B9D;
+  color: white;
+}
