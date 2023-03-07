@@ -1,14 +1,16 @@
 // Specific CSS for your home-page
 
 // Section banner
-
+body{
+  font-family: 'Lusitana', serif;
+}
 .banner {
   display: flex;
   flex-direction: column;
   width: 50%;
   height: 80vh;
   margin-top: 20rem;
-  font-size: 24px;
+  font-size: 50px;
   margin-left: 20px;
 }
 .img-banner{
@@ -56,10 +58,17 @@ font-size: 18px;
 
 //1er section "moi"
 .moi{
+  font-family: 'Nunito', sans-serif;
   display: flex;
   height: 80vh;
   align-items: center;
   margin-bottom: 150px;
+}
+.moi p{
+  color:#7B7B7B ;
+}
+.accordion{
+  color:#7B7B7B ;
 }
 .moi1{
   flex-direction: column;
@@ -258,4 +267,46 @@ input:focus, textarea:focus {
 .boutton-contact:hover{
   background-color: #457B9D;
   color: white;
+}
+
+
+//parallax css
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#parallax-container {
+  background-image: url("https://images.unsplash.com/photo-1677954068430-4ba4ca4bc0fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 350px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+#parallax-content {
+  height: 1000px;
+  position: relative;
+}
+
+#parallax-content h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  margin: 0;
+  padding: 200px 0 0;
+  text-align: center;
+}
+
+#parallax-content p {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 50px;
+  text-align: justify;
 }
